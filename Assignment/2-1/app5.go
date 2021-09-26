@@ -11,6 +11,7 @@ func main() {
 	t.Talk() // 印出：I’m bird KiKi, 2 years old. Fly 10 miles a day.
 }
 
+// My Code
 type Man struct {
 	name string
 	age  int

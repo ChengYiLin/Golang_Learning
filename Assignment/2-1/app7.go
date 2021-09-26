@@ -15,6 +15,8 @@ func main() {
 }
 
 // 請運用空白介面當參數，建立 print 方法，滿足主程式需求
+
+// My Code
 type Man struct {
 	name string
 	age  int
