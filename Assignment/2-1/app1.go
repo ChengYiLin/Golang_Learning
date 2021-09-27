@@ -13,12 +13,9 @@ func main() {
 
 // My Code
 func calculate(vals []int) {
-	data := make([]int, len(vals))
-	copy(data, vals)
-
 	var result int = 0
 	for i := 0; i < len(vals); i++ {
-		result += data[i]
+		result += vals[i]
 	}
 
 	fmt.Println(result)
