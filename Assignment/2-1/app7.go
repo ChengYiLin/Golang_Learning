@@ -30,11 +30,7 @@ func print(param interface{}) {
 		fmt.Printf("unexpected type %T\n", param)
 
 	case Man:
-		m, ok := param.(Man)
-		if !ok {
-			fmt.Printf("unexpected type %T\n", param)
-			return
-		}
+		m := param.(Man)
 		fmt.Printf("I’m %s, %d years old.\n", m.name, m.age)
 
 	case string:
