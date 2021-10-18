@@ -1,0 +1,46 @@
+.container {
+    width: 350px;
+    padding: 2rem;
+    margin: 0 auto;
+}
+
+.container__header {
+    text-align: center;
+    padding: 1.5rem 1rem;
+    color: white;
+    background: rgb(16, 65, 155);
+    border-radius: 10px 10px 0 0;
+}
+
+.container__header .header__text {
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.container__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border: 1px solid #0e0e0e;
+    border-top: none;
+}
+
+.container__content .content__title {
+    font-size: 1.25rem;
+    font-weight: bolder;
+}
+
+.container__content .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container__content .form .form-group {
+    margin-bottom: .5rem;
+}
+
+.container__content .form .submit-button {
+    margin-bottom: 1rem;
+}

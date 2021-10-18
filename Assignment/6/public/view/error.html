@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Index</title>
+    <link rel="stylesheet" href="./static/style/index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="container__header">
+        <h1 class="header__text">失敗頁面</h1>
+      </div>
+      <div class="container__content">
+        <p class="content__title">{{index . "errorMsg"}}</p>
+        <a href="/">返回首頁</a>
+      </div>
+    </div>
+    <script src="./static/js/index.js"></script>
+  </body>
+</html>
